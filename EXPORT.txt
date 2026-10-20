@@ -1,0 +1,8 @@
+src dbb193354897cc57d4ed2ee4b89c50c95639da6d
+index.pck 94305400 bytes
+sha256 9dfc136697ffd295334773faab27ec929f06ff98860728bddcd46268d1aabb4e
+wasm maximum 8192 pages (512 MiB, 536870912 bytes)
+threads off
+split index.pck.part_aa 89000000
+split index.pck.part_ab 5305400
+Pages was not pushed. The PM copies this directory onto the playtest site.
