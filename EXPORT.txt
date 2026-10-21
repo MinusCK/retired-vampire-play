@@ -1,6 +1,6 @@
-v0.2.9 terrain phase 2
-src c8ae56c95c4709852f45350dd4fc58acff9df42f (branch cursor/terrain-phase2-v029-fa71, PR #110)
-index.pck 96552000 bytes
-sha256 1b524e59441ab2d87bc94798b8c3e613457dd8362ff5d601aca8a2d0ae83b897
+v0.2.10 elemental tornadoes
+src 70c1b1d (branch cursor/elemental-tornado-v0210-956e, PR #111)
+index.pck 97219744 bytes
+sha256 9826dc37a01aaea0d46e09ac00fcec4d18ea51c20e2d2ddb5a130ebba4e258c5
 threads off
 date 2026-10-21 (HKT)
