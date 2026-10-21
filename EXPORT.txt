@@ -1,5 +1,5 @@
-src e85e130 (branch cursor/tornado-flat-cel-v2-fix-bfc9, PR #107)
-index.pck 94647248 bytes
-sha256 4a51478e9a0f8ca9cd70a4f9ce0b1686551d59f47ef6d2c13dddf2af3cfa8d4e
+src 7a2042cf56aec440a4236a2097f98993ff417a7b (branch cursor/terrain-core-v1-bcd1, PR #108)
+index.pck 94678920 bytes
+sha256 6bc5a7d3208e0a214382c3d15e5838667f89d89aee4eae20e9dcece8ba298527
 threads off
-v0.2.6 tornado flat_cel v2.1 patch
+v0.2.7 terrain core phase 1
