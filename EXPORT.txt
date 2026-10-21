@@ -1,8 +1,5 @@
-src a922598314f43676bb90a1b40184134eeb7a45fd
-index.pck 94682648 bytes
-sha256 dc1eaa47ebe50b243330ce5ae34d71c2926210510a98e5d7acc97148acfd1314
-wasm maximum 8192 pages (512 MiB, 536870912 bytes)
+src e85e130 (branch cursor/tornado-flat-cel-v2-fix-bfc9, PR #107)
+index.pck 94647248 bytes
+sha256 4a51478e9a0f8ca9cd70a4f9ce0b1686551d59f47ef6d2c13dddf2af3cfa8d4e
 threads off
-split index.pck.part_aa 89000000
-split index.pck.part_ab 5682648
-Pages was not pushed. The PM copies this directory onto the playtest site.
+v0.2.6 tornado flat_cel v2.1 patch
