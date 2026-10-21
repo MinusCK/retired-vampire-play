@@ -1,5 +1,6 @@
-src c2a0a703161c99669cfe14f31f3f42e3130e87bd (branch cursor/beat-speed-v1-d1f9, PR #109)
-index.pck 94686700 bytes
-sha256 da0331bfd7149b84c32de428bc29cd4a299ba77577cd5831961bc41cceab0f99
+v0.2.9 terrain phase 2
+src c8ae56c95c4709852f45350dd4fc58acff9df42f (branch cursor/terrain-phase2-v029-fa71, PR #110)
+index.pck 96552000 bytes
+sha256 1b524e59441ab2d87bc94798b8c3e613457dd8362ff5d601aca8a2d0ae83b897
 threads off
-v0.2.8 beat + attack speed phase 1
+date 2026-10-21 (HKT)
