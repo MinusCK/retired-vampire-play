@@ -1,7 +1,7 @@
-v0.2.11 terrain OR lifetime
-src 20bf9da (branch cursor/terrain-or-lifetime-39c9, PR #112)
-index.pck 99900176 bytes
-sha256 e10719c9b959ce4a55bc4936fd19cbaf05940eab0c5b8e18d0a3bbf6d17314df
-threads off
-note rebuilt locally — cloud agent web_export missing from agent store (expected 97219728/c4f9e454…); logic from commit 20bf9da
-date 2026-10-21 23:24 HKT
+v0.2.13 · 試玩 — frost copy + web perf
+src 9acd262 (PR #114 frost+perf merge)
+index.pck 97229848 bytes
+sha256 f93d191d0766f345965164b94849d7e984bab14e3896d4e495c368caa8c86494
+index.wasm 39514753 bytes
+sha256 31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360
+date 2026-10-22 01:41 HKT
