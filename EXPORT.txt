@@ -1,10 +1,11 @@
-version: v0.2.23 · 試玩
-branch: cursor/v0223-bloodmoon-ult-scale-ea6e
-HEAD: 8366e8d
-Origin PR: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/124
-note: blood moon ult character+chair HALF×cam_s scale fix
-index.pck: 98776168 bytes
-index.pck sha256: 775e475362aa43be64152210ce52f94d70b13badd82095c803dd0e0f1af6f4af
-index.wasm: 39509338 bytes
-index.wasm sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-date: 2026-10-24 04:37 HKT
+VERSION=v0.2.24
+CORNER=v0.2.24 · 試玩
+GIT=943dc17e6a42a0865988cfae2b4dbbd95ec11723
+BRANCH=cursor/v0224-bloodmoon-framing-34e0
+GODOT=4.7.stable
+NOTE=game.gdc is compressed binary tokens; decompressed payload contains v0.2.24 and 試玩, not v0.2.23
+
+2d6e6a6d2e6a4e92bc0dedf075b7d26da8e8b7bfa15f16628a4e78ba62b38876  2283262  index.html
+6206a89e87a74545c16e5b4394800ee2363f78b1f1315eb28673ba60cd269c5d  279814  index.js
+8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5  39509338  index.wasm
+1216b79abd25b13802f444dd40c55afecb8db4ceabdefd6a5f758c8bdfb90611  98778104  index.pck
