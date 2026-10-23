@@ -1,8 +1,10 @@
-version: v0.2.20 · 試玩
-branch: cursor/v0220-tornado-trail-3x2-d80a
-HEAD: 9ae9fc0503ce9c7afad20cb7397b643800c9c7d5
-index.pck: 97484156 bytes
-index.pck sha256: 28d10cb830a93afbd377a84a6e25caf345c665833c4e17be9069e1700f4fc04d
-index.wasm: 39509338 bytes
-index.wasm sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-date: 2026-10-24 01:09:46 HKT
+version: v0.2.21 · 試玩
+head: 0c036a49c1d7980adb8c49a2350379c005759dc1
+branch: cursor/v0221-tornado-hit-bounce-5896
+godot: 4.7.stable.official.5b4e0cb0f
+wasm_heap: 512 MiB (8192 pages)
+index.pck_bytes: 97486348
+index.pck_sha256: b591f5a79428fe3ad42d98ac116f294bac98745553101ca2807c148408e93cd3
+index.wasm_bytes: 39509338
+index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
+note: Exported locally. Not pushed to MinusCK/retired-vampire-play.
