@@ -1,7 +1,8 @@
-v0.2.18 · 試玩 — bat flock 0.45×
-src 57f2151 (PR #119)
-index.pck 97480876 bytes
-sha256 e8de2bfbb92b6cf1ef29c21fa975cd435ce108ee5a843f6575e64019424d3c84
-index.wasm 39509338 bytes
-sha256 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-date 2026-10-22 21:16 HKT
+version: v0.2.19 · 試玩
+branch: cursor/v0219-fire-ice-bat-d80a
+HEAD: 97c246daa4e41426f6a273f3fbf7fcce59be6648
+index.pck: 97483420 bytes
+index.pck sha256: 2e5f0f4377854d36b3d8fad85fe79874f323036b773324b2e360f80d8dff049a
+index.wasm: 39509338 bytes
+index.wasm sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
+date: 2026-10-24 00:24:31 HKT
