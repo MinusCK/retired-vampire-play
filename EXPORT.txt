@@ -1,10 +1,9 @@
-version: v0.2.21 · 試玩
-head: 0c036a49c1d7980adb8c49a2350379c005759dc1
-branch: cursor/v0221-tornado-hit-bounce-5896
-godot: 4.7.stable.official.5b4e0cb0f
-wasm_heap: 512 MiB (8192 pages)
-index.pck_bytes: 97486348
-index.pck_sha256: b591f5a79428fe3ad42d98ac116f294bac98745553101ca2807c148408e93cd3
-index.wasm_bytes: 39509338
-index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-note: Exported locally. Not pushed to MinusCK/retired-vampire-play.
+version: v0.2.22 · 試玩
+branch: cursor/v0222-bloodmoon-terrain-4161
+HEAD: 5c79557
+Origin PR: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/123
+index.pck: 98775896 bytes
+index.pck sha256: d696720adf60f8bf75a6daa3c88402dde08fd234464333f4dc976d7410a2e718
+index.wasm: 39509338 bytes
+index.wasm sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
+date: 2026-10-24 03:59 HKT
