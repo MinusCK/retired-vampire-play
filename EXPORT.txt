@@ -1,8 +1,8 @@
-version: v0.2.19 · 試玩
-branch: cursor/v0219-fire-ice-bat-d80a
-HEAD: 97c246daa4e41426f6a273f3fbf7fcce59be6648
-index.pck: 97483420 bytes
-index.pck sha256: 2e5f0f4377854d36b3d8fad85fe79874f323036b773324b2e360f80d8dff049a
+version: v0.2.20 · 試玩
+branch: cursor/v0220-tornado-trail-3x2-d80a
+HEAD: 9ae9fc0503ce9c7afad20cb7397b643800c9c7d5
+index.pck: 97484156 bytes
+index.pck sha256: 28d10cb830a93afbd377a84a6e25caf345c665833c4e17be9069e1700f4fc04d
 index.wasm: 39509338 bytes
 index.wasm sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-date: 2026-10-24 00:24:31 HKT
+date: 2026-10-24 01:09:46 HKT
