@@ -2,9 +2,9 @@
 
 GitHub Pages playtest for *Retired Vampire*.
 
-**Current root build:** v0.2.29 — blood-moon title out (bats scatter as text fades).
+**Current root build:** v0.2.31 — blood-moon full align (graveyard readable, glasses bake, push-glasses tea+cane).
 
 - **Play:** https://minusck.github.io/retired-vampire-play/
-- **Source:** `93335d4` (Origin PR #130)
+- **Source:** `a7c7e293` (Origin PR #132)
 
 **Rollback to v0.2.4:** checkout / re-export from tag `playtest-v0.2.4-stable` (`f0cd6ab`).
