@@ -1,14 +1,14 @@
 retired-vampire web export
-version: v0.2.25
-branch: cursor/v0225-bloodmoon-framing-1009
-commit: 0228d8f45f303f459d221bc37a4e052e5a178c58
+version: v0.2.29
+branch: Origin PR #130
+commit: 93335d4cff2ee9ff5b3c2f4f135ebe08b071df90
 preset: Web (threads off, wasm max 512 MiB)
 
 file	Content-Length	sha256
-index.html	2283262	9e57d642ff2a3e6221f1d9abb4c2bf331e9a2375fab8b91646bc49a97713111f
+index.html	2283262	964c1ad23c5325e645544409e4909d2d9cbc1b7f7b3abcfab79b2d43b9b69603
 index.js	279814	6206a89e87a74545c16e5b4394800ee2363f78b1f1315eb28673ba60cd269c5d
 index.wasm	39509338	8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-index.pck	98777016	7a302e29f4f0e2c9aa8d8fda074c45ab19b4d7dd5af82d96e954d71b3c99fe2f
+index.pck	98781560	b8387e51e5069cbf1e8b878d96d08884d88638ca033e3ad3bd2839c0f9fac0a3
 index.audio.worklet.js	7298	5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3
 index.audio.position.worklet.js	2973	be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8
 index.icon.png	3778	1bde3668691fef653ab261132b5fcbdf5bfda69da2c2ab318324296a777c73d9
