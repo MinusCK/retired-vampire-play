@@ -2,9 +2,9 @@
 
 GitHub Pages playtest for *Retired Vampire*.
 
-**Current root build:** v0.2.34 — scare wave skill draft (PR #134) + castle relics 12 (PR #135).
+**Current root build:** v0.2.36 — drop W1 forced frost grant (Origin PR #137); skill/REWARD draft + castle relics kept.
 
 - **Play:** https://minusck.github.io/retired-vampire-play/
-- **Source:** `b9c8936` (Origin PR #135, stacked on #134)
+- **Source:** `4dcd905` (Origin PR #137, stacked on #136)
 
 **Rollback to v0.2.4:** checkout / re-export from tag `playtest-v0.2.4-stable` (`f0cd6ab`).

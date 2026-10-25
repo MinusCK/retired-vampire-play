@@ -1,9 +1,9 @@
-playtest v0.2.34
-src tip: b9c8936dc9c63802a30ec7338e07333616a33468
-branch: cursor/scare-castle-relics-60f1
-Origin PR: #135 (stack on #134)
-corner: v0.2.34 · 試玩
-index.pck bytes: 98824932
-index.pck sha256: d02b545b2474398ad7318840f979f7696e5c708e0a16cb4d7c25256327336910
-exported by: cloud agent bc-31153fdc
-deployed: 2026-10-25T23:15:44+08:00
+playtest v0.2.36
+src tip: 4dcd9050df836539bc76ea3be059483ab0be0272
+branch: cursor/v0241-drop-frost-grant-d0ff
+Origin PR: #137 (stack on #136)
+corner: v0.2.36 · 試玩
+index.pck bytes: 98824980
+index.pck sha256: 44232cc364da01f41442546b88dae5336c152519e72cc030ff945cf0e1669514
+exported by: cloud agent bc-74dc7668
+deployed: 2026-10-26T02:35:00+08:00
