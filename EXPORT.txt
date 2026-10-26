@@ -1,9 +1,9 @@
-playtest v0.2.36
-src tip: 4dcd9050df836539bc76ea3be059483ab0be0272
-branch: cursor/v0241-drop-frost-grant-d0ff
-Origin PR: #137 (stack on #136)
-corner: v0.2.36 · 試玩
-index.pck bytes: 98824980
-index.pck sha256: 44232cc364da01f41442546b88dae5336c152519e72cc030ff945cf0e1669514
-exported by: cloud agent bc-74dc7668
-deployed: 2026-10-26T02:35:00+08:00
+playtest v0.2.37
+src tip: 8b56dff6529c0b4b29a1a00c9dc0f42e4d994ff8
+branch: cursor/v0242-blood-fire-coexist-ttl-df3d
+Origin PR: #139 (fast-forwarded onto cursor/v0241-drop-frost-grant-d0ff; Origin merge API token is not scoped)
+corner: v0.2.37 · 試玩
+index.pck bytes: 98828532
+index.pck sha256: fc51b9cbff85642baacc971fa878dd701010771576feafd07b3b398bbe8d0ea0
+exported by: cloud agent bc-22fced44-ca59-5ccc-8fd5-27ee05c1df3d
+deployed: 2026-10-27T03:21:19+08:00
