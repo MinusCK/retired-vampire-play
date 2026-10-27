@@ -1,9 +1,15 @@
-playtest v0.2.37
-src tip: 8b56dff6529c0b4b29a1a00c9dc0f42e4d994ff8
-branch: cursor/v0242-blood-fire-coexist-ttl-df3d
-Origin PR: #139 (fast-forwarded onto cursor/v0241-drop-frost-grant-d0ff; Origin merge API token is not scoped)
-corner: v0.2.37 · 試玩
-index.pck bytes: 98828532
-index.pck sha256: fc51b9cbff85642baacc971fa878dd701010771576feafd07b3b398bbe8d0ea0
-exported by: cloud agent bc-22fced44-ca59-5ccc-8fd5-27ee05c1df3d
-deployed: 2026-10-27T03:21:19+08:00
+src_sha: ed141e52693ba62358556eb8dfc85f486981e242
+pck_bytes: 98861700
+sha256: 0ffda31e7635f98926fb63a1915f43728c01b3a0f40eddc8e3614844b1280ec5
+corner: v0.2.38 · 試玩
+index.pck_bytes: 98861700
+index.pck_sha256: 0ffda31e7635f98926fb63a1915f43728c01b3a0f40eddc8e3614844b1280ec5
+index.wasm_bytes: 39509338
+index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
+godot: 4.7.stable.official.5b4e0cb0f
+wasm_heap: 512 MiB (8192 pages)
+branch: cursor/scare-shortlist-v0238-758d
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/143
+game.gdc: decompressed tokens contain v0.2.38 and · 試玩
+scare_pool.gdc: decompressed tokens contain sc_drip, sc_hurricane, 滴血吊燈, 疊
+note: Exported locally. GitHub has no credentials, so this was not pushed to Pages. The box can push this folder.
