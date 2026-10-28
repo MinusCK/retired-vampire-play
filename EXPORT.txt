@@ -1,15 +1,14 @@
-src_sha: ed141e52693ba62358556eb8dfc85f486981e242
-pck_bytes: 98861700
-sha256: 0ffda31e7635f98926fb63a1915f43728c01b3a0f40eddc8e3614844b1280ec5
+src_sha: a478a1c748d192202326a4f91454ad0b0880b1ab
+pck_bytes: 99392260
+sha256: dcaaa48c857874b6f87b969fbfeae3fd9f3e0294db83cc4a06fafdf243e99ea8
 corner: v0.2.38 · 試玩
-index.pck_bytes: 98861700
-index.pck_sha256: 0ffda31e7635f98926fb63a1915f43728c01b3a0f40eddc8e3614844b1280ec5
+index.pck_bytes: 99392260
+index.pck_sha256: dcaaa48c857874b6f87b969fbfeae3fd9f3e0294db83cc4a06fafdf243e99ea8
 index.wasm_bytes: 39509338
 index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
 godot: 4.7.stable.official.5b4e0cb0f
 wasm_heap: 512 MiB (8192 pages)
-branch: cursor/scare-shortlist-v0238-758d
-pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/143
-game.gdc: decompressed tokens contain v0.2.38 and · 試玩
-scare_pool.gdc: decompressed tokens contain sc_drip, sc_hurricane, 滴血吊燈, 疊
-note: Exported locally. GitHub has no credentials, so this was not pushed to Pages. The box can push this folder.
+branch: main
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/144
+game.gdc: exported from Origin main a478a1c; corner stays v0.2.38 · 試玩
+note: sc_whirl arms WhirlHit; live hits follow the stone into each column.
