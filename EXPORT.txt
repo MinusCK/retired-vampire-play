@@ -1,14 +1,14 @@
-src_sha: 898951efd679209237eea80324a096a6496f4040
-pck_bytes: 99398664
-sha256: eb27a4624bb1f9fa1988598627a4e534b6b3dfc5da4f5a96fe499aaaade52022
-corner: v0.2.39 · 試玩
-index.pck_bytes: 99398664
-index.pck_sha256: eb27a4624bb1f9fa1988598627a4e534b6b3dfc5da4f5a96fe499aaaade52022
+src_sha: e1559b5673d91f1462eec33bd9923e5fbb4dad59
+pck_bytes: 99579756
+sha256: dfdcd6609f225af546f3e7fe214c8e47ad703b97b976178038b046c320ce75d8
+corner: v0.2.40 · 試玩
+index.pck_bytes: 99579756
+index.pck_sha256: dfdcd6609f225af546f3e7fe214c8e47ad703b97b976178038b046c320ce75d8
 index.wasm_bytes: 39509338
 index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
 godot: 4.7.stable.official.5b4e0cb0f
 wasm_heap: 512 MiB (8192 pages)
 branch: main
-pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/145
-game.gdc: exported from Origin main 898951e; corner stays v0.2.39 · 試玩
-note: range pipeline base → mods → total_n → cells; sc_widen2 (範圍加倍) in gift W2.
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/147
+game.gdc: exported from Origin main e1559b5; corner is v0.2.40 · 試玩
+note: sc_candle flies the card bezier, eases to a stop, lies flat on the cell center, scales out, then 3x3 atlas fire.
