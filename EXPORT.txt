@@ -1,9 +1,9 @@
-src_sha: a372ff9f10e46f206111884064a79af0b911e31c
-pck_bytes: 102479792
-sha256: 8cf102b8b921403832d2108320aa9576aa118241b79fc2e95c351c22d758319c
-corner: v0.2.41 · 試玩
-index.pck_bytes: 102479792
-index.pck_sha256: 8cf102b8b921403832d2108320aa9576aa118241b79fc2e95c351c22d758319c
+src_sha: 1083b5b57eaad74cc31b1ed1e8bc3b645130ebfd
+pck_bytes: 102328928
+sha256: abf0be24041cf1a4b97472418328937b96cf7e62ceb0fe4a1eb9b017af757c8a
+corner: v0.2.42 · 試玩
+index.pck_bytes: 102328928
+index.pck_sha256: abf0be24041cf1a4b97472418328937b96cf7e62ceb0fe4a1eb9b017af757c8a
 index.wasm_bytes: 39509338
 index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
 godot: 4.7.stable.official.5b4e0cb0f
@@ -11,5 +11,5 @@ wasm_heap: 512 MiB (8192 pages)
 threads: single (variant/thread_support=false)
 branch: cursor/scare-full-face-caa9
 pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/151
-game.gdc: exported from Origin branch cursor/scare-full-face-caa9 a372ff9; corner is v0.2.41 · 試玩
-note: Same full-face pipeline as fe64824, plus the skeleton ink fix (no solid name/desc plates, cost orb cleared, no giant element portrait). Origin PR #151 is not merged. This agent did not push GitHub.
+game.gdc: exported from Origin branch cursor/scare-full-face-caa9 1083b5b; corner is v0.2.42 · 試玩
+note: Skeleton name banner is purple (no cream plate), no center glyph node, effect lines sit in the well, range pill shows a count. Replaces playtest-v0241-unify. Origin PR #151 is not merged. This agent did not push GitHub.
