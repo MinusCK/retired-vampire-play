@@ -1,15 +1,14 @@
-src_sha: 1083b5b57eaad74cc31b1ed1e8bc3b645130ebfd
-pck_bytes: 102328928
-sha256: abf0be24041cf1a4b97472418328937b96cf7e62ceb0fe4a1eb9b017af757c8a
-corner: v0.2.42 · 試玩
-index.pck_bytes: 102328928
-index.pck_sha256: abf0be24041cf1a4b97472418328937b96cf7e62ceb0fe4a1eb9b017af757c8a
+src_sha: 79297f38f427306481677ba5899a1fa0acd17a20
+pck_bytes: 101397004
+sha256: fea836546cd2c0029896ff74157d91bd854c48607392bcbfc276151b34acd909
+corner: v0.2.45 · 試玩
+index.pck_bytes: 101397004
+index.pck_sha256: fea836546cd2c0029896ff74157d91bd854c48607392bcbfc276151b34acd909
 index.wasm_bytes: 39509338
 index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
 godot: 4.7.stable.official.5b4e0cb0f
 wasm_heap: 512 MiB (8192 pages)
 threads: single (variant/thread_support=false)
-branch: cursor/scare-full-face-caa9
-pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/151
-game.gdc: exported from Origin branch cursor/scare-full-face-caa9 1083b5b; corner is v0.2.42 · 試玩
-note: Skeleton name banner is purple (no cream plate), no center glyph node, effect lines sit in the well, range pill shows a count. Replaces playtest-v0241-unify. Origin PR #151 is not merged. This agent did not push GitHub.
+branch: cursor/cardview-astra-empty-v1-4c9b
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/152
+note: Scare cards assemble from the Astra empty chrome with runtime labels; effect text is centered in the cream desc plate. Card chrome and tornado art import as lossy WebP so the pck fits under 98 MiB. Stacked on PR #151. Neither PR is merged. Replaces playtest-v0243-emptychrome. This agent did not push GitHub.
