@@ -1,14 +1,15 @@
-src_sha: fe64824ed0b55182d7211dd20977fe476f8f4580
-pck_bytes: 102398464
-sha256: ccf2cb417769d61fcfba6766dc6d9beed77dd097fa8b5fce4864938ddca71655
-corner: v0.2.40 · 試玩
-index.pck_bytes: 102398464
-index.pck_sha256: ccf2cb417769d61fcfba6766dc6d9beed77dd097fa8b5fce4864938ddca71655
+src_sha: a372ff9f10e46f206111884064a79af0b911e31c
+pck_bytes: 102479792
+sha256: 8cf102b8b921403832d2108320aa9576aa118241b79fc2e95c351c22d758319c
+corner: v0.2.41 · 試玩
+index.pck_bytes: 102479792
+index.pck_sha256: 8cf102b8b921403832d2108320aa9576aa118241b79fc2e95c351c22d758319c
 index.wasm_bytes: 39509338
 index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
 godot: 4.7.stable.official.5b4e0cb0f
 wasm_heap: 512 MiB (8192 pages)
+threads: single (variant/thread_support=false)
 branch: cursor/scare-full-face-caa9
 pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/151
-game.gdc: exported from Origin branch cursor/scare-full-face-caa9 fe64824; corner is v0.2.40 · 試玩
-note: Astra full-face for sc_tornado plus the shared chrome skeleton for the other scare cards. Origin PR #151 is not merged.
+game.gdc: exported from Origin branch cursor/scare-full-face-caa9 a372ff9; corner is v0.2.41 · 試玩
+note: Same full-face pipeline as fe64824, plus the skeleton ink fix (no solid name/desc plates, cost orb cleared, no giant element portrait). Origin PR #151 is not merged. This agent did not push GitHub.
