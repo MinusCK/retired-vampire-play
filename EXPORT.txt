@@ -1,14 +1,14 @@
-src_sha: e1559b5673d91f1462eec33bd9923e5fbb4dad59
-pck_bytes: 99579756
-sha256: dfdcd6609f225af546f3e7fe214c8e47ad703b97b976178038b046c320ce75d8
+src_sha: fe64824ed0b55182d7211dd20977fe476f8f4580
+pck_bytes: 102398464
+sha256: ccf2cb417769d61fcfba6766dc6d9beed77dd097fa8b5fce4864938ddca71655
 corner: v0.2.40 · 試玩
-index.pck_bytes: 99579756
-index.pck_sha256: dfdcd6609f225af546f3e7fe214c8e47ad703b97b976178038b046c320ce75d8
+index.pck_bytes: 102398464
+index.pck_sha256: ccf2cb417769d61fcfba6766dc6d9beed77dd097fa8b5fce4864938ddca71655
 index.wasm_bytes: 39509338
 index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
 godot: 4.7.stable.official.5b4e0cb0f
 wasm_heap: 512 MiB (8192 pages)
-branch: main
-pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/147
-game.gdc: exported from Origin main e1559b5; corner is v0.2.40 · 試玩
-note: sc_candle flies the card bezier, eases to a stop, lies flat on the cell center, scales out, then 3x3 atlas fire.
+branch: cursor/scare-full-face-caa9
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/151
+game.gdc: exported from Origin branch cursor/scare-full-face-caa9 fe64824; corner is v0.2.40 · 試玩
+note: Astra full-face for sc_tornado plus the shared chrome skeleton for the other scare cards. Origin PR #151 is not merged.
