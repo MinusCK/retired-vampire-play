@@ -1,14 +1,14 @@
-src_sha: 9a124157e845d3c044b9182941defc4a3853cba1
-pck_bytes: 101855396
-sha256: 3364907e865a8e7db9231992f41cdc2a1bde206651b88b6a24dded7479ad6ae3
-corner: v0.2.47 · 試玩
-index.pck_bytes: 101855396
-index.pck_sha256: 3364907e865a8e7db9231992f41cdc2a1bde206651b88b6a24dded7479ad6ae3
-index.wasm_bytes: 39509338
-index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
+src_sha: 40142f00de1e81b18de968ba7ec56137c7024035
+pck_bytes: 101997780
+sha256: a47fe3dad7d4889793a4d9b5ab11f7f10dfd809b6ec0c5f8400badae05eb8448
+corner: v0.2.49 · 試玩
+index.pck_bytes: 101997780
+index.pck_sha256: a47fe3dad7d4889793a4d9b5ab11f7f10dfd809b6ec0c5f8400badae05eb8448
+index.wasm_bytes: 39509339
+index.wasm_sha256: 7eda98958eb09135a1acb54a4323a00b1a55af1997f15fa1cdc2b93e3df46656
 godot: 4.7.stable.official.5b4e0cb0f
-wasm_heap: 512 MiB (8192 pages)
 threads: single (variant/thread_support=false)
-branch: cursor/cardview-astra-empty-v1-4c9b
-pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/152
-note: Astra empty chrome assemble, effect text centered in the desc plate, element socket glyphs v3, and v2 prop portraits for sc_candle, sc_seep, sc_vial, sc_spark and sc_lid. Stacked on PR #151. PRs #151, #152 and #153 are not merged. Replaces playtest-v0245-desccenter. This agent did not push GitHub.
+branch: cursor/opus55-slab-terrain-redesign-bc61
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/154
+trycloudflare: https://deaths-activated-stuck-distinguished.trycloudflare.com
+note: v4 stone-slab floor and terrain atlases in the floor_v3 cel style, live as the drop-in. PR #154 is not merged. Replaces playtest v0.2.47. This agent did not push GitHub (no MinusCK credentials).
