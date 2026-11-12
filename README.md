@@ -1,15 +1,11 @@
-# Playtest v0.2.49 · 試玩
+# Playtest v0.2.50 · 回合試作
 
-Play URL (after the parent pushes): https://minusck.github.io/retired-vampire-play/
-Temporary URL served from the agent VM: https://deaths-activated-stuck-distinguished.trycloudflare.com
+Play URL: https://minusck.github.io/retired-vampire-play/
 
-Source: Origin `cheung-minus/retired-vampire` branch `cursor/opus55-slab-terrain-redesign-bc61` commit `40142f00de1e81b18de968ba7ec56137c7024035` (Origin PR #154, not merged).
+Source: Origin `cheung-minus/retired-vampire` branch `cursor/scare-turn-prototype-cae8` commit `16259f335fdef9a1f26f92db9a11c5891c5d5153` (Origin PR #156, not merged).
 
-Godot 4.7 web export (release, single-threaded) with the repo's `Web` preset. The corner reads v0.2.49 · 試玩. This was checked in Chrome through the trycloudflare URL, on both the title screen and a live battle.
+Godot 4.7 web export (release, single-threaded, mobile textures, 512MiB wasm, no COOP/COEP). The in-game corner reads v0.2.50 · 回合試作. The loading-shell version div remains v0.2.4, the same label as the previous Pages shell.
 
-- The battle floor is the v4 stone slabs: floor_v3-style flat lilac-grey flagstones with sparse moss and cracks. The two rows in front of the castle have red danger grout with ember cracks.
-- All eight terrain types use the v4 cel atlases: fire, ice, blood_seep, poison, water, electric, shadow_mist and rubble.
+`index.pck` is 102011160 bytes (sha256 `dd4dd8edc300acf781fd8bf03348ac37d2100a13b04a61b7ec7bf0dbcc20c28e`). `index.wasm` is 39509338 bytes (sha256 `8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5`). `index.html` is 2283263 bytes (sha256 `e9a7dd20c5a0d99750cc2b888afdc390b24a8f1a90bd42aa9e6ec56408f564a4`).
 
-`index.pck` is 101997780 bytes (sha256 `a47fe3dad7d4889793a4d9b5ab11f7f10dfd809b6ec0c5f8400badae05eb8448`). That is under the 98 MiB cap and GitHub's 100 MiB limit. `index.wasm` is 39509339 bytes (sha256 `7eda98958eb09135a1acb54a4323a00b1a55af1997f15fa1cdc2b93e3df46656`).
-
-This folder is the complete Pages root and contains no Godot source. The parent box pushes it to `MinusCK/retired-vampire-play` `main` for https://minusck.github.io/retired-vampire-play/. This agent does not push to GitHub. This build replaces playtest v0.2.47.
+This folder is the complete Pages root and contains no Godot source. This build replaces playtest v0.2.49. Origin PR #156 is not merged.
