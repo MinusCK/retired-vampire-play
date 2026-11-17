@@ -1,19 +1,24 @@
-src_sha: a189f5653ca45574a221e5c2df12d53f7eb735a4
-pck_bytes: 102014312
-sha256: c2fefc6b7f093250cbc20ec15fea1f4697fb31db9c07ebd30ecc01a0925d860d
-corner: v0.2.51 · 回合試作
-index.pck_bytes: 102014312
-index.pck_sha256: c2fefc6b7f093250cbc20ec15fea1f4697fb31db9c07ebd30ecc01a0925d860d
-index.wasm_bytes: 39509338
-index.wasm_sha256: 8ef15a50b35277cb9309cc0701fff37e61631f29e9f0d7ea637dc04c25f666f5
-index.html_bytes: 2283263
-index.html_sha256: b47bf3440926ce7141359b4a5d906c64bbdb636da0b8f948a80e3b41f72f5463
-godot: 4.7.stable.official
+src_sha: 0a8cdde566c3ccae5cc3d3afc0ed10ac06b2df36
+corner: v0.2.57 · 回合試作
+loader: v0.2.57
+base_pck: base.5dc35b5297ab65148fef763618cd1ccffda78148e535cde269b12219e3671535.pck
+base_pck_bytes: 31796884
+base_pck_sha256: 5dc35b5297ab65148fef763618cd1ccffda78148e535cde269b12219e3671535
+ult_pck: ult.5c1505259e3463a7f23c85e7e945a2ee12de809003a96b6d2917ea7232147a16.pck
+ult_pck_bytes: 66130248
+ult_pck_sha256: 5c1505259e3463a7f23c85e7e945a2ee12de809003a96b6d2917ea7232147a16
+wasm: index.31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360.wasm
+wasm_bytes: 39514753
+wasm_sha256: 31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360
+index.html_bytes: 2288246
+index.html_sha256: 04ba21412b6a209496d013ea9a1c995bfcd9b36931714ea9076ed17fd74db044
+godot: 4.7.2.stable.official
 threads: single (GODOT_THREADS_ENABLED=false)
 wasm_memory: 512MiB (getHeapMax=536870912)
 textures: mobile (etc2/astc)
 coop_coep: not required
-branch: cursor/scare-turn-prototype-cae8
-pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/156
-zip_sha256: 483eae0403bd9d1a25a42b498ffd029c57b480a72beb7d28b829ffe2e921fb6a
-note: Verified drop-in of retired-vampire-godot-web-v0251-turn.zip. Origin PR #156 is not merged. Replaces playtest v0.2.50. index.js and index.wasm are unchanged. index.html fileSizes lists index.wasm as 39509339; the wasm file is 39509338 and that number is only a progress total.
+branch: cursor/astra-grounds-trial-c59c
+pr: https://cursor.com/codebase/cheung-minus/retired-vampire/pull/158
+rollback_tag: playtest-v0.2.51
+rollback_commit: 89657a26cd798d7a547eeacffcef1dfad663d8f3
+note: Two packs. The base pack excludes ultimate videos and the inactive graveyard GLBs. The shared graveyard atlas stays in the base pack. Filenames are content hashes. This is not a delta download.

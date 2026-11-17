@@ -62,6 +62,11 @@ body { background: #0A040E; overflow: hidden; touch-action: none; color: #FFF4DE
 	display: none; max-width: 80%; background: #5b3943; border: 1px solid #9b3943;
 	border-radius: 8px; padding: 16px; text-align: center; z-index: 3;
 }
+#status-notice button {
+	margin-top: 12px; font: inherit; font-size: 18px; padding: 8px 18px;
+	background: #FFC93C; color: #1A0E1E; border: 3px solid #1A0E1E;
+	border-radius: 10px; cursor: pointer;
+}
 
 #stage .runner { position: absolute; z-index: 2; pointer-events: none; }
 #stage .logo, #stage .pill { z-index: 1; }
@@ -96,15 +101,16 @@ body { background: #0A040E; overflow: hidden; touch-action: none; color: #FFF4DE
 				<div class="loading">載入中…</div>
 				<div class="pct" id="pct">0%</div>
 				<div class="tip" id="tip">TIP  退休貼士：白天瞓覺唔係懶，係養生。</div>
-				<div class="ver">v0.2.4</div>
+				<div class="ver">v0.2.57</div>
 			</div>
 		</div>
 		<div id="status-notice"></div>
 	</div>
 	<img id="status-splash" class="show-image--false fullsize--true use-filter--true" src="index.png" alt="" style="display:none">
-	<script src="index.js"></script>
+	<script src="index.efef818b1aa07a9f60b53b3efbbf435d0d270949fefc709ce8b9f8fc8db33eec.js"></script>
 	<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":102014312,"index.wasm":39509339},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":31796884,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const RV_PACKS = {"version": "v0.2.57", "source": "0a8cdde566c3ccae5cc3d3afc0ed10ac06b2df36", "wasm": {"file": "index.31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360.wasm", "bytes": 39514753, "sha256": "31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360"}, "base": {"file": "base.5dc35b5297ab65148fef763618cd1ccffda78148e535cde269b12219e3671535.pck", "bytes": 31796884, "sha256": "5dc35b5297ab65148fef763618cd1ccffda78148e535cde269b12219e3671535"}, "ultimate": {"file": "ult.5c1505259e3463a7f23c85e7e945a2ee12de809003a96b6d2917ea7232147a16.pck", "bytes": 66130248, "sha256": "5c1505259e3463a7f23c85e7e945a2ee12de809003a96b6d2917ea7232147a16"}, "js": {"file": "index.efef818b1aa07a9f60b53b3efbbf435d0d270949fefc709ce8b9f8fc8db33eec.js", "bytes": 279932, "sha256": "efef818b1aa07a9f60b53b3efbbf435d0d270949fefc709ce8b9f8fc8db33eec"}, "worklets": [{"file": "index.audio.worklet.5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3.js", "bytes": 7298, "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"}, {"file": "index.audio.position.worklet.be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8.js", "bytes": 2973, "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"}]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 (function () {
@@ -140,6 +146,15 @@ const engine = new Engine(GODOT_CONFIG);
 		const msg = err instanceof Error ? err.message : (typeof err === 'string' ? err : 'An unknown error occurred.');
 		setStatusNotice(msg);
 		setStatusMode('notice');
+		if (!document.getElementById('rv-retry')) {
+			const retry = document.createElement('button');
+			retry.id = 'rv-retry';
+			retry.type = 'button';
+			retry.textContent = '重試 Retry';
+			retry.addEventListener('click', function () { location.reload(); });
+			statusNotice.appendChild(document.createElement('br'));
+			statusNotice.appendChild(retry);
+		}
 		initializing = false;
 	}
 
@@ -245,6 +260,88 @@ const engine = new Engine(GODOT_CONFIG);
 		layoutChase();
 		requestAnimationFrame(bootLoop);
 	}
+	function downloadFile(url, size, onLoaded) {
+		return new Promise(function (resolve, reject) {
+			const xhr = new XMLHttpRequest();
+			xhr.open('GET', url, true);
+			xhr.responseType = 'arraybuffer';
+			xhr.onprogress = function (ev) {
+				onLoaded(ev.loaded, ev.lengthComputable ? ev.total : size);
+			};
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300 && xhr.response) {
+					onLoaded(xhr.response.byteLength, size || xhr.response.byteLength);
+					resolve(xhr.response);
+				} else {
+					reject(new Error('下載失敗 ' + url + ' HTTP ' + xhr.status));
+				}
+			};
+			xhr.onerror = function () { reject(new Error('下載失敗 ' + url)); };
+			xhr.send();
+		});
+	}
+	async function sha256Hex(buf) {
+		const dig = await crypto.subtle.digest('SHA-256', buf);
+		return Array.from(new Uint8Array(dig)).map(function (b) {
+			return b.toString(16).padStart(2, '0');
+		}).join('');
+	}
+	async function bootPacks() {
+		const packs = RV_PACKS;
+		if (!packs || !packs.base || !packs.base.sha256 || !packs.ultimate || !packs.wasm) {
+			throw new Error('缺少資源包清單');
+		}
+		const jobs = [
+			{ key: 'wasm', file: packs.wasm.file, bytes: packs.wasm.bytes, sha256: packs.wasm.sha256 },
+			{ key: 'base', file: packs.base.file, bytes: packs.base.bytes, sha256: packs.base.sha256 },
+			{ key: 'ultimate', file: packs.ultimate.file, bytes: packs.ultimate.bytes, sha256: packs.ultimate.sha256 },
+		];
+		const total = jobs.reduce(function (sum, job) { return sum + (job.bytes || 0); }, 0) || 1;
+		const got = { wasm: 0, base: 0, ultimate: 0 };
+		function report() {
+			setProgress(got.wasm + got.base + got.ultimate, total);
+		}
+		const bufs = {};
+		await Promise.all(jobs.map(function (job) {
+			return downloadFile(job.file, job.bytes, function (loaded) {
+				got[job.key] = loaded;
+				report();
+			}).then(function (buf) {
+				if (job.bytes && buf.byteLength !== job.bytes) {
+					throw new Error(job.key + ' 大小不符 ' + buf.byteLength + ' != ' + job.bytes);
+				}
+				return sha256Hex(buf).then(function (hex) {
+					if (hex !== job.sha256) {
+						throw new Error(job.key + ' hash 不符');
+					}
+					bufs[job.key] = buf;
+					got[job.key] = job.bytes || buf.byteLength;
+					report();
+				});
+			});
+		}));
+		const wasmName = packs.wasm.file;
+		const origFetch = window.fetch.bind(window);
+		window.fetch = function (input, init) {
+			const url = typeof input === 'string' ? input : ((input && input.url) || '');
+			if (url.indexOf('index.wasm') !== -1 || url.indexOf(wasmName) !== -1) {
+				return Promise.resolve(new Response(bufs.wasm, {
+					status: 200,
+					headers: { 'Content-Type': 'application/wasm' },
+				}));
+			}
+			return origFetch(input, init);
+		};
+		engine.config.executable = 'index';
+		engine.config.mainPack = 'index.pck';
+		engine.config.fileSizes['index.wasm'] = packs.wasm.bytes;
+		engine.config.fileSizes['index.pck'] = packs.base.bytes;
+		engine.config.args = ['--main-pack', 'index.pck'].concat(engine.config.args || []);
+		await engine.preloadFile(new Uint8Array(bufs.base), 'index.pck');
+		await engine.preloadFile(new Uint8Array(bufs.ultimate), '/rv_ult.pck');
+		await engine.init('index');
+		await engine.start();
+	}
 	const preview = new URLSearchParams(location.search).get('boot');
 	const missing = Engine.getMissingFeatures({ threads: GODOT_THREADS_ENABLED });
 	if (preview !== null) {
@@ -270,9 +367,7 @@ const engine = new Engine(GODOT_CONFIG);
 		setStatusMode('progress');
 		layoutChase();
 		requestAnimationFrame(bootLoop);
-		engine.startGame({
-			onProgress: function (current, total) { setProgress(current, total); },
-		}).then(function () {}, displayFailureNotice);
+		bootPacks().catch(displayFailureNotice);
 	}
 }());
 	</script>
