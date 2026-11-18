@@ -1,0 +1,36 @@
+{
+  "version": "v0.2.57",
+  "source": "83c7c6fac736b0c849bd7376f7eda3df657ff8c8",
+  "wasm": {
+    "file": "index.31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360.wasm",
+    "bytes": 39514753,
+    "sha256": "31926119bbb2b79a880e2a8f978f1ca82400837bf01f441bc4d1fb8338818360"
+  },
+  "base": {
+    "file": "base.b074d9627ba331528272bcd531a0e940fba164f23b2b6363dfe779ec49b5ab17.pck",
+    "bytes": 31815540,
+    "sha256": "b074d9627ba331528272bcd531a0e940fba164f23b2b6363dfe779ec49b5ab17"
+  },
+  "ultimate": {
+    "file": "ult.e3362d04aaa2149b1f2d5d91ed53a1f5a3b26dbbe1deb259ea49f3a874f40f15.pck",
+    "bytes": 66130248,
+    "sha256": "e3362d04aaa2149b1f2d5d91ed53a1f5a3b26dbbe1deb259ea49f3a874f40f15"
+  },
+  "js": {
+    "file": "index.efef818b1aa07a9f60b53b3efbbf435d0d270949fefc709ce8b9f8fc8db33eec.js",
+    "bytes": 279932,
+    "sha256": "efef818b1aa07a9f60b53b3efbbf435d0d270949fefc709ce8b9f8fc8db33eec"
+  },
+  "worklets": [
+    {
+      "file": "index.audio.worklet.5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "file": "index.audio.position.worklet.be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    }
+  ]
+}
